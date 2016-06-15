@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Language" content="en">
+    <title>EsBet-Dota 2 matches</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- for fontawesome icon css file -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- for content animate css file -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- google fonts  -->
+    <!-- link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>    -->
+    <!-- for news ticker css file -->
+     <link href="css/li-scroller.css" rel="stylesheet">
+     <!-- slick slider css file -->
+    <link href="css/slick.css" rel="stylesheet">
+    <!-- for fancybox slider -->
+     <link href="css/jquery.fancybox.css" rel="stylesheet">    
+    <!-- website theme file -->
+    <!-- <link href="css/theme-red.css" rel="stylesheet"> -->
+ 
+     
+    <!-- main site css file -->    
+    <link href="style.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
+    
+ 
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<body bgcolor="#808080">
+ 
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div id="status">&nbsp;</div>
+  </div>
+  <!-- End Preloader -->
+   
+  <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+  
+  <div class="container">
+    <!-- start header section -->
+    <header id="header">    
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="header_top">
+            <div class="header_top_left">
+              <ul class="top_nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+            <div class="header_top_right">
+              <p>Proudly South African</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="header_bottom">
+            <div class="logo_area">
+              <!--  img logo format
+              <a href="home.html" class="logo">
+                <img src="img/logo.jpg" alt="logo">
+              </a> -->
+              <!-- for your text logo format -->
+               <a href="#" class="logo">
+                Es<span>Bet</span>
+              </a> 
+            </div>
+            <div class="add_banner">
+              <a href="#"><img src="img/dota-2-add.jpg" alt="img"></a>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </header><!-- End header section --> 
+    
+    
+    <!-- start nav section --> 
+    <section id="navArea">
+      <!-- Start navbar -->
+      <nav class="navbar navbar-inverse" role="navigation">      
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>          
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav main_nav">
+            <li class="active"><a href="index.html"><span class="fa fa-home desktop-home"></span><span class="mobile-show">Home</span></a></li>
+            <li><a href="#">Matches</a></li>            
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Games</a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Dota 2</a></li>
+                <li><a href="#">Hearthstone</a></li>
+                <li><a href="#">Starcraft 2</a></li>
+                <li><a href="#">League of Legends</a></li>
+                <li><a href="#">Counter Strike</a></li>               
+              </ul>
+            </li>
+            <li><a href="#">Rankings</a></li> 
+            <li><a href="#">Streams</a></li> 
+            <li><a href="contact.html">Contact Us</a></li>
+            <!-- <li><a href="404.html">404 Page</a></li> -->
+          </ul>           
+        </div><!--/.nav-collapse -->      
+      </nav>
+    </section><!-- End nav section -->
+	
+    <section id="newsSection">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+           <!-- start news sticker -->
+          <div class="latest_newsarea">      
+            <span>Upcoming Matches</span>
+            <ul id="ticker01" class="news_sticker">
+              <li><a href="#"><img src="img/heroesofthestorm.png" alt="">HOTS</a></li> 
+              <li><a href="#"><img src="img/starcraft2.png" alt="">Starcraft 2</a></li>
+              <li><a href="#"><img src="img/dota2.png" alt="">Dota 2</a></li>
+              <li><a href="#"><img src="img/counterstrike.png" alt="">Counter Strike</a></li> 
+              <li><a href="#"><img src="img/lol.png" alt="">League of Legends</a></li>
+              <!-- <li><a href="#"><img src="img/news_thumbnail3.jpg" alt="">My Six News Item</a></li>
+              <li><a href="#"><img src="img/news_thumbnail3.jpg" alt="">My Seven News Item</a></li> 
+              <li><a href="#"><img src="img/news_thumbnail3.jpg" alt="">My Eight News Item</a></li>
+              <li><a href="#"><img src="img/news_thumbnail2.jpg" alt="">My Nine News Item</a></li>           -->
+            </ul>
+            <!--******************************* ****POSSIBLE SOCIAL SECTION********* *****************-->
+            <div class="social_area">  
+              <ul class="social_nav">
+                <li class="facebook"><a href="#"></a></li>
+                <li class="twitter"><a href="#"></a></li>
+                <li class="flickr"><a href="#"></a></li>
+                <li class="pinterest"><a href="#"></a></li>
+                <li class="googleplus"><a href="#"></a></li>
+                <li class="vimeo"><a href="#"></a></li>
+                <li class="youtube"><a href="#"></a></li>
+                <li class="mail"><a href="darrenhinde@hotmail.com"></a></li>
+              </ul>
+            </div>      
+          </div><!-- End of side real -->
+        </div>
+      </div>
+    </section>
+	
+     <!-- =========================
+      ////////////// //////////////////////
+      //////////// ->
+
+    <!-- ==================start content body section=============== -->
+    <section id="contentSection">
+      <div class="row">
+        <div class="col-lg-8 col-md-8 col-sm-8">
+          <div class="left_content">
+             
+             
+              <!-- *****Match table with times for games******* -->
+        
+        <div class="col-lg-8 col-md-8 col-sm-8">
+        <div class="latest_post">
+        	<table class="tg" style="undefined;table-layout: fixed; width: 100%">
+				<colgroup>
+				<col style="width: 81px">
+				<col style="width: 32px">
+				<col style="width: 84px">
+				<col style="width: 42px">
+				</colgroup>
+				  <tr>
+				    <th class="tg-q2qu" colspan="4">eSports Matchticker</th>
+				  </tr>
+				  <tr>
+				    <td class="tg-4f8a"><img src="img/starcraft2.png" alt="">Team1</td>
+				    <td class="tg-tovh">vs</td>
+				    <td class="tg-o6lg">Team2</td>
+				    <td class="tg-o6lg">time</td>
+				  </tr>
+				  <tr>
+				    <td class="tg-11jg"><img src="img/heroesofthestorm.png" alt="">Team1</td>
+				    <td class="tg-rsy7">vs</td>
+				    <td class="tg-35rq">Team2</td>
+				    <td class="tg-35rq">time</td>
+				  </tr>
+				  <tr>
+				    <td class="tg-4f8a"><img src="img/dota2.png" alt="">Team1</td>
+				    <td class="tg-tovh">vs</td>
+				    <td class="tg-o6lg">Team2</td>
+				    <td class="tg-o6lg">time</td>
+				  </tr>
+				  <tr>
+				    <td class="tg-11jg"><img src="img/counterstrike.png" alt="">Team1</td>
+				    <td class="tg-yrk5">vs</td>
+				    <td class="tg-x11l">Team2</td>
+				    <td class="tg-35rq">time</td>
+				  </tr>
+				  <tr>
+				    <td class="tg-4f8a"><img src="img/starcraft2.png" alt="">Team1</td>
+				    <td class="tg-tovh">vs</td>
+				    <td class="tg-o6lg">Team2</td>
+				    <td class="tg-o6lg">time</td>
+				  </tr>
+				  <tr>
+				    <td class="tg-11jg"><img src="img/heroesofthestorm.png" alt="">Team1</td>
+				    <td class="tg-rsy7">vs</td>
+				    <td class="tg-35rq">Team2</td>
+				    <td class="tg-35rq">time</td>
+				  </tr>
+				  <tr>
+				    <td class="tg-4f8a"><img src="img/dota2.png" alt="">Team1</td>
+				    <td class="tg-tovh">vs</td>
+				    <td class="tg-o6lg">Team2</td>
+				    <td class="tg-o6lg">time</td>
+				  </tr>
+				  <tr>
+				    <td class="tg-11jg"><img src="img/counterstrike.png" alt="">Team1</td>
+				    <td class="tg-yrk5">vs</td>
+				    <td class="tg-x11l">Team2</td>
+				    <td class="tg-35rq">time</td>
+				  </tr>
+				   <tr>
+				    <td class="tg-4f8a"><img src="img/starcraft2.png" alt="">Team1</td>
+				    <td class="tg-tovh">vs</td>
+				    <td class="tg-o6lg">Team2</td>
+				    <td class="tg-o6lg">time</td>
+				  </tr>
+				  <tr>
+				    <td class="tg-11jg"><img src="img/heroesofthestorm.png" alt="">Team1</td>
+				    <td class="tg-rsy7">vs</td>
+				    <td class="tg-35rq">Team2</td>
+				    <td class="tg-35rq">time</td>
+				  </tr>
+				  <tr>
+				    <td class="tg-4f8a"><img src="img/dota2.png" alt="">Team1</td>
+				    <td class="tg-tovh">vs</td>
+				    <td class="tg-o6lg">Team2</td>
+				    <td class="tg-o6lg">time</td>
+				  </tr>
+				  <tr>
+				    <td class="tg-11jg"><img src="img/counterstrike.png" alt="">Team1</td>
+				    <td class="tg-yrk5">vs</td>
+				    <td class="tg-x11l">Team2</td>
+				    <td class="tg-35rq">time</td>
+				  </tr>
+				   <tr>
+				    <td class="tg-4f8a"><img src="img/starcraft2.png" alt="">Team1</td>
+				    <td class="tg-tovh">vs</td>
+				    <td class="tg-o6lg">Team2</td>
+				    <td class="tg-o6lg">time</td>
+				  </tr>
+				  <tr>
+				    <td class="tg-11jg"><img src="img/heroesofthestorm.png" alt="">Team1</td>
+				    <td class="tg-rsy7">vs</td>
+				    <td class="tg-35rq">Team2</td>
+				    <td class="tg-35rq">time</td>
+				  </tr>
+				  <tr>
+				    <td class="tg-4f8a"><img src="img/dota2.png" alt="">Team1</td>
+				    <td class="tg-tovh">vs</td>
+				    <td class="tg-o6lg">Team2</td>
+				    <td class="tg-o6lg">time</td>
+				  </tr>
+				  <tr>
+				    <td class="tg-11jg"><img src="img/counterstrike.png" alt="">Team1</td>
+				    <td class="tg-yrk5">vs</td>
+				    <td class="tg-x11l">Team2</td>
+				    <td class="tg-35rq">time</td>
+				  </tr>
+				   <tr>
+				    <td class="tg-4f8a"><img src="img/starcraft2.png" alt="">Team1</td>
+				    <td class="tg-tovh">vs</td>
+				    <td class="tg-o6lg">Team2</td>
+				    <td class="tg-o6lg">time</td>
+				  </tr>
+				  <tr>
+				    <td class="tg-11jg"><img src="img/heroesofthestorm.png" alt="">Team1</td>
+				    <td class="tg-rsy7">vs</td>
+				    <td class="tg-35rq">Team2</td>
+				    <td class="tg-35rq">time</td>
+				  </tr>
+				  <tr>
+				    <td class="tg-4f8a"><img src="img/dota2.png" alt="">Team1</td>
+				    <td class="tg-tovh">vs</td>
+				    <td class="tg-o6lg">Team2</td>
+				    <td class="tg-o6lg">time</td>
+				  </tr>
+				  <tr>
+				    <td class="tg-11jg"><img src="img/counterstrike.png" alt="">Team1</td>
+				    <td class="tg-yrk5">vs</td>
+				    <td class="tg-x11l">Team2</td>
+				    <td class="tg-35rq">time</td>
+				  </tr>
+				</table>
+				</div>
+		</div>
+<!-- ****************************End of table ***** -->
+
+
+
+
+            
+            <!-- **********END OF ADDS**********************! -->
+            
+          </aside>
+        </div>
+
+  </div> <!-- /.container -->
+  
+  <div class="col-lg-4 col-md-4 col-sm-4">
+          <aside class="right_content">
+            <div class="single_sidebar">
+              <h2><span>What's hot right now!</span></h2>
+              <ul class="spost_nav">
+                <li>
+                  <div class="media wow fadeInDown">
+                    <a href="single_page.html" class="media-left">
+                      <img alt="img" src="img/ad1.jpg">
+                    </a>
+                    <div class="media-body">
+                      <a href="single_page.html" class="catg_title"> Sign up and WIN!!</a>                        
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="media wow fadeInDown">
+                    <a href="single_page.html" class="media-left">
+                      <img alt="img" src="img/ad2.jpg">
+                    </a>
+                    <div class="media-body">
+                      <a href="single_page.html" class="catg_title"> Earn big! 2</a>                        
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="media wow fadeInDown">
+                    <a href="single_page.html" class="media-left">
+                      <img alt="img" src="img/ad3.jpg">
+                    </a>
+                    <div class="media-body">
+                      <a href="single_page.html" class="catg_title"> Don't Misss Out</a>                        
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="media wow fadeInDown">
+                    <a href="single_page.html" class="media-left">
+                      <img alt="img" src="img/ad1.jpg">
+                    </a>
+                    <div class="media-body">
+                      <a href="single_page.html" class="catg_title"> Your time has come 4</a>                       
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            
+            <!-- sponsor add -->
+            <div class="single_sidebar wow fadeInDown">
+              <h2><span>Sponsor</span></h2>
+              <a class="sideAdd" href="#"><img src="img/ad-sponsor.png" alt="img"></a>
+            </div>
+            <!-- End sponsor add -->
+             
+              <!-- sponsor add -->
+            <div class="single_sidebar wow fadeInDown">
+              <h2><span>Links</span></h2>
+              <ul>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Rss Feed</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">FAQ</a></li>
+              </ul>
+            </div>
+            <!-- End sponsor add -->
+  
+  </div>
+  </section>
+  
+   <!-- ==================End content body section=============== -->    
+    <footer id="footer">       
+      <div class="footer_top">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="footer_widget wow fadeInLeftBig">
+              <h2></h2>
+               <img src="img/drg-load.gif" alt="img">       
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="footer_widget wow fadeInDown">
+              <h2></h2>
+              <ul class="tag_nav">
+                <li><a href="#">Dota 2</a></li>
+                <li><a href="#">Heartstone</a></li>
+                <li><a href="#">Counter Strike</a></li>
+                <li><a href="#">League of Lengends</a></li>
+                <li><a href="#">Starcraft 2</a></li>
+                <li><a href="#">Heroes of the Storm</a></li>
+                <li><a href="#">Battlefield</a></li>
+                <li><a href="#">Overwatch</a></li>
+              </ul>              
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="footer_widget wow fadeInRightBig">
+              <h2>Contact</h2>
+              <p> E-sport is a term for organized video gaming competitions between players or teams. There are many competitive games - such as StarCraft2, League of Legends, Counter-Strike, World of Tanks, Quake, Dota 2 etc. eGamingBets has been used by cybersport fans to place bets on e-sport games since 2011. We support and sponsor various leagues and tournaments around the world. You can also take part in supporting e-sports by placing a bet on any game you're interested in.
+              	If you have any questions please refer to terms & conditions, F.A.Q or contact us: support@egb.com</p>
+              <address>
+                #38 JHB, South Africa
+              </address>              
+            </div>
+          </div>
+        </div>
+      </div>       
+      <div class="footer_bottom">
+        <p class="copyright">
+          All Rights Reserved <a href="#">esBet</a>
+        </p>
+       
+      </div>    
+    </footer>
+  </div> <!-- /.container -->
+
+  <!-- jQuery Library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+  <!-- For content animatin  -->
+  <script src="js/wow.min.js"></script>
+  <!-- bootstrap js file -->
+  <script src="js/bootstrap.min.js"></script> 
+  <!-- slick slider js file -->
+  <script src="js/slick.min.js"></script> 
+  <!-- news ticker jquery file -->
+  <script src="js/jquery.li-scroller.1.0.js"></script>
+  <!-- for news slider -->
+  <script src="js/jquery.newsTicker.min.js"></script>
+  <!-- for fancybox slider -->
+  <script src="js/jquery.fancybox.pack.js"></script>
+  <!-- custom js file include -->    
+  <script src="js/custom.js"></script> 
+
+  <!-- =========================
+        //////////////This Theme Design and Developed //////////////////////
+        //////////// by www.wpfreeware.com======================-->
+    
+      
+  </body>
+</html>
